@@ -20,22 +20,39 @@
 .email {
     width: 167px;
     height: 57px;
-    border: solid;
 }
 .adress {
     width: 232px;
     height: 85px;
-    border: solid;
     margin-left: 121px;
 }
 .phone { 
     width: 222px;
     height: 57px;
-    border: solid;
     margin-left: 89px;
 }
-.sec1_text1 {
+.sec1_text2 {
+    text-decoration: underline gray;
+}
+.sec1_text1, .sec2_text1, .sec3_text1 {
     color: #922727;
     font-size: 16px;
     font-weight: 700;
+}
+.sec1_text2, .sec2_text2, .sec2_text3, .sec3_text2 {
+    margin-top: 13px;
+}
+.telegram_link {
+    color: black;
+    margin-left: 34px;
+    margin-top: 102px;
+    font-size: 27px;
+}
+.telegram_link2 {
+    color: #922727;
+
+}
+.map {
+    margin-top: 141px;
+    width: 100%;
 }
