@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.contaier {
-    width: 100%;
+.1contaier {
+    min-width: 1280px;
+    max-width: 100%;
+}
+.sector1 {
+    width: 1280px;
+    margin: 0 auto;
 }
 .text1 {
     font-size: 72px;
