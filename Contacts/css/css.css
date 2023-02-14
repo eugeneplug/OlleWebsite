@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contaier {
+    width: 100%;
+}
+.text1 {
+    font-size: 72px;
+    color: #922727;
+    margin-left: 31px;
+    margin-top: 129px;
+}
+.blocks_contacts {
+    display: flex;
+    height: 57px;
+    margin-left: 34px;
+    margin-top: 93px;
+}
+.email {
+    width: 167px;
+    height: 57px;
+    border: solid;
+}
+.adress {
+    width: 232px;
+    height: 85px;
+    border: solid;
+    margin-left: 121px;
+}
+.phone { 
+    width: 222px;
+    height: 57px;
+    border: solid;
+    margin-left: 89px;
+}
+.sec1_text1 {
+    color: #922727;
+    font-size: 16px;
+    font-weight: 700;
+}
