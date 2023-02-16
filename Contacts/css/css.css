@@ -1,10 +1,23 @@
+@font-face {
+	font-family: 'SF UI Display Bold';
+	src: url('../fonts/sf_ui_display_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_bold.svg#sf_ui_display_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+
+
 * {
     margin: 0;
     padding: 0;
 }
-.1contaier {
-    min-width: 1280px;
-    max-width: 100%;
+.container {
+    width: 1280px;
+    margin: 0 auto;
 }
 .sector1 {
     width: 1280px;
@@ -57,7 +70,53 @@
     color: #922727;
 
 }
+.sector2 {
+    height: 833px;
+}
 .map {
+    margin: 0 auto;
+    width: 1280px;
+    height: 833px;
     margin-top: 141px;
-    width: 100%;
+    
+}
+.s3_text1 {
+    font-size: 72px;
+    margin-left: 34px;
+    color: #922727;
+    margin-top: 50px;
+}
+.s3_block1 {
+    width: 500px;
+    height: 500px;
+    margin-top: 102px;
+    margin-left: 34px;
+}
+.s3_area1_text1 {
+    width: 505px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+}
+.s3_area1_text2 {
+    margin-top: 15px;
+    width: 505px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+}
+.s3_block1_textarea {
+    width: 505px;
+    height: 80px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    resize: none;
+}
+.btn_send {
+    border: solid;
+    width: 505px;
+    height: 100px;
 }
