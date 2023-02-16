@@ -7,8 +7,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/css.css">
     <script src="https://kit.fontawesome.com/1fb243072c.js" crossorigin="anonymous"></script>
-    <style> body {    font-family: 'SF UI Display Bold'; } </style>
+    <style> body {    font-family: 'SF UI Display Bold'; } 
+            header {    font-family: 'SF UI Display Bold'; } 
+    
+    </style>
 </head>
+<header>
+    <nav>
+        <div class="logo">OLLE</div>
+        <ul class="navbar">
+            <li>
+                Главная
+            </li>
+            <li>
+                О нас
+            </li>
+            <li>
+                Магазин
+            </li>
+            <li>
+                Контакты
+            </li>
+            <li>
+                Доставка
+            </li>
+            <button class="call">Заказать обратный звонок</button>
+            <img src="img/basket.png" alt="basket" class="basket">
+        </ul>
+    </nav>
+</header>
 <body>
     <div class="container">
         <section class="sector1">
@@ -42,19 +69,51 @@
         <section class="sector3">
             <div class="s3_text1">Свяжитесь с нами</div>
                <div class="s3_block1">
-                    <form action="" method="post">
+                    <form action="" class="s3_form_block" method="post">
                         <div class="s3_area1"><input class="s3_area1_text1" type="text" name="name" size="15" maxlength="20" value="" placeholder="Имя" required=""></div>
                         <div class="s3_area1"><input class="s3_area1_text2" type="text" name="email" size="15" maxlength="20" value="" placeholder="E-mail" required=""></div>
                         <div class="s3_area1"><input class="s3_area1_text2" type="text" name="phone" size="15" maxlength="20" value="" placeholder="Телефон" required=""></div>
                         <div class="s3_area2"><textarea class="s3_block1_textarea" placeholder="Ваш вопрос" ></textarea></div>
-                        
+                           <a href="#" class="btn_send_link">
                             <div class="btn_send">
-                                
+                                <p class="btn_send_text">Отправить</p>
                             </div>
+                           </a>
                     </form>
+                    <div class="s3_block2">
+                        <img src="../Contacts/img/image 3 (1).svg" class="s3_block2_img">
+                    </div>
                </div>
                
         </section>
+        
+
+
+
+
     </div>
 </body>
+<footer>
+    <nav>
+        <div class="logoFooter">OLLE</div>
+        <ul class="navbarFooter">
+            <li>
+                Главная
+            </li>
+            <li>
+                О нас
+            </li>
+            <li>
+                Магазин
+            </li>
+            <li>
+                Контакты
+            </li>
+            <li>
+                Доставка
+            </li>
+        </ul>
+        <img src="img/tg.png" alt="tg" class="tgFooter">
+    </nav>
+ </footer>
 </html>

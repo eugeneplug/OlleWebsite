@@ -11,6 +11,98 @@
 
 
 
+
+
+
+
+header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #9B9B9B;
+    margin: 0 auto;
+}
+
+nav{
+    width: 1200px;
+    height: 60px;
+    background-color: #9B9B9B;
+    margin: 0 auto;
+}
+
+.logo{
+    font-family: 'SF UI Text Bold Italic';
+    font-size: 48px;
+    color: #992928;
+}
+
+ul{
+    display: flex;
+    margin-left: 190px;
+    text-decoration: none;
+    font-family: 'SF UI Display Regular';
+    position: relative;
+    bottom: 55px;
+    align-items: end;
+
+
+}
+
+li{
+    padding-left: 50px;
+    list-style-type: none;
+    color: #FEFEFE;
+}
+
+li:hover{
+    color: #992928;
+    transition: 0.3s;
+
+}
+
+.call{
+    border-radius: 30px;
+    color: #FEFEFE;
+    background-color: #9B9B9B;
+    border: 1px solid #FEFEFE;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+    left: 120px;
+    bottom: 9px;
+}
+
+.basket{
+    position: relative;
+    left: 203px;
+    bottom: 9px;
+}
+
+.call:hover{
+    color: #992928;
+    border: 1px solid #992928;
+    transition: 0.3s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -87,10 +179,19 @@
     margin-top: 50px;
 }
 .s3_block1 {
-    width: 500px;
+    width: 1280px;
     height: 500px;
     margin-top: 102px;
+    display: flex;
+}
+.s3_form_block {
     margin-left: 34px;
+}
+.s3_block2 {
+    width: 402px;
+    height: 340px;
+    margin-left: 213px;
+    margin-top: -50px;
 }
 .s3_area1_text1 {
     width: 505px;
@@ -116,7 +217,53 @@
     resize: none;
 }
 .btn_send {
-    border: solid;
-    width: 505px;
-    height: 100px;
+    width: 290px;
+    height: 40px;
+    margin-top: 50px;
+    background: #922727;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn_send_text {
+    color: white;
+    font-size: 14px;
+}
+.btn_send_link {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+footer{
+    margin-top: 1px;
+    width: 100%;
+    height: 200px;
+    background-color: #9B9B9B;
+}
+
+.navbarFooter{
+
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+
+.logoFooter{
+    font-family: 'SF UI Text Bold Italic';
+    font-size: 48px;
+    color: #992928;
+    position: relative;
+    top: 70px;
+}
+
+.tgFooter{
+    margin-left: 1155px;
 }
