@@ -1,38 +1,81 @@
 @font-face {
-	font-family: 'SF UI Display Bold';
-	src: url('../fonts/sf_ui_display_bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/sf_ui_display_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/sf_ui_display_bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/sf_ui_display_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/sf_ui_display_bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/sf_ui_display_bold.svg#sf_ui_display_bold') format('svg'); /* Chrome < 4, Legacy iOS */
-        
-}
-@font-face {
-	font-family: 'SF UI Text Bold Italic';
-	src: url('../fonts/sf_ui_text_bold_italic.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/sf_ui_text_bold_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/sf_ui_text_bold_italic.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/sf_ui_text_bold_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/sf_ui_text_bold_italic.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/sf_ui_text_bold_italic.svg#sf_ui_text_bold_italic') format('svg'); /* Chrome < 4, Legacy iOS */
-}
-@font-face {
-	font-family: 'SF UI Display Black';
-	src: url('../fonts/sf_ui_display_black.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/sf_ui_display_black.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/sf_ui_display_black.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/sf_ui_display_black.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/sf_ui_display_black.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/sf_ui_display_black.svg#sf_ui_display_black') format('svg'); /* Chrome < 4, Legacy iOS */
-}
+    font-family: 'SF UI Text Bold Italic';
+    src: url('../fonts/sf_ui_text_bold_italic.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/sf_ui_text_bold_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+      url('../fonts/sf_ui_text_bold_italic.woff2') format('woff2'), /* Super Modern Browsers */
+      url('../fonts/sf_ui_text_bold_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+      url('../fonts/sf_ui_text_bold_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/sf_ui_text_bold_italic.svg#sf_ui_text_bold_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+    }
+    @font-face {
+    font-family: 'SF UI Display Ultralight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Ultralight'), url('sf-ui-display-ultralight-58646b19bf205.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Thin'), url('sf-ui-display-thin-58646e9b26e8b.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Light'), url('../fonts/fonts2/sf-ui-display-light-58646b33e0551.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('../fonts/fonts2/sf-ui-display-medium-58646be638f96.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Semibold'), url('sf-ui-display-semibold-58646eddcae92.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Bold'), url('../fonts/fonts2/sf-ui-display-bold-58646a511e3d9.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Heavy'), url('sf-ui-display-heavy-586470160b9e5.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'SF UI Display Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Black'), url('sf-ui-display-black-58646a6b80d5a.woff') format('woff');
+    }
 
 
 
 
 
-
-
+    body {     font-family: 'SF UI Display Medium';  } 
+    .block1_text1 {font-family: 'SF UI Display Bold';}
 *{
     padding: 0;
     margin: 0;
