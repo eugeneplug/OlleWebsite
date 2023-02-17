@@ -323,9 +323,10 @@ footer{
     position: relative;
     top: 50%;
 }
-
-.logoFooter{
+.logo_foot {
     
+}
+.logoFooter{
     font-size: 48px;
     color: #992928;
     position: relative;
@@ -342,9 +343,10 @@ footer{
     color: #992928;
     font-size: 30px;
 }
-.fa-brands fa-vk, fa-brands fa-telegram, fa-brands fa-instagram {
-    margin-left: 50px;
-}
+
 .footer_icons_link1, .footer_icons_link2, .footer_icons_link3 {
     color: #992928;
+}
+.footer_icons_link2, .footer_icons_link3 {
+    margin-left: 5px;
 }
