@@ -172,7 +172,6 @@ a {
 
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -213,6 +212,7 @@ a {
 }
 .sec1_text2 {
     text-decoration: underline gray;
+    color: black;
 }
 .sec1_text1, .sec2_text1, .sec3_text1 {
     color: #922727;
@@ -221,6 +221,7 @@ a {
 }
 .sec1_text2, .sec2_text2, .sec2_text3, .sec3_text2 {
     margin-top: 13px;
+    color: black;
 }
 .telegram_link {
     color: black;
@@ -352,3 +353,5 @@ footer{
 .footer_icons_link2, .footer_icons_link3 {
     margin-left: 5px;
 }
+
+
