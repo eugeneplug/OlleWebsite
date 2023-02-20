@@ -355,3 +355,33 @@ footer{
 }
 
 
+.nav_button {
+    display: none;
+}
+
+@media (max-width: 1230px) {
+    .text1 {
+        margin-left: 13px;
+    }
+    .body {
+        margin: 0;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav_button {
+        display: block;
+    }
+    .sector1, .blocks_contacts, .telegram_link { 
+        flex-direction: column;
+    }
+    .adress, .phone { 
+        margin-left: 0;
+    }
+    .telegram_link {
+        margin-top: 50px;
+    }
+    .blocks_contacts {
+        margin-left: 13px;
+    }
+}
