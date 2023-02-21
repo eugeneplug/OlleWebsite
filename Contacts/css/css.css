@@ -362,6 +362,7 @@ footer{
 @media (max-width: 1230px) {
     .text1 {
         margin-left: 13px;
+        margin-top: 25px;
     }
     .body {
         margin: 0;
@@ -377,11 +378,17 @@ footer{
     }
     .adress, .phone { 
         margin-left: 0;
+        margin-top: 15px;
     }
     .telegram_link {
-        margin-top: 50px;
+        margin-top: 135px;
+        margin-left: 13px;
     }
     .blocks_contacts {
         margin-left: 13px;
+        margin-top: 22px;
+    }
+    .sec1_text2, .sec2_text2, .sec2_text3, .sec3_text2 {
+    margin-top: 3px;
     }
 }
