@@ -1,0 +1,331 @@
+@font-face {
+	font-family: 'SF UI Display Regular';
+	src: url('../fonts/sf_ui_display_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_regular.svg#sf_ui_display_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'SF UI Display Bold';
+	src: url('../fonts/sf_ui_display_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_bold.svg#sf_ui_display_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'SF UI Text Bold Italic';
+	src: url('../fonts/sf_ui_text_bold_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_text_bold_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_text_bold_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_text_bold_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_text_bold_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_text_bold_italic.svg#sf_ui_text_bold_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+    /*Стилизация шрифтов начало*/
+
+    body {
+        font-family: 'SF UI Display Regular';
+
+        margin: 0 auto;
+    }
+    .logo{font-family: 'SF UI Text Bold Italic';}
+
+
+     /*Стилизация шрифтов конец*/
+
+
+     header{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #9B9B9B;
+        margin: 0 auto;
+    }
+    
+    nav{
+        width: 1200px;
+        height: 60px;
+        background-color: #9B9B9B;
+        margin: 0 auto;
+    }
+    
+    .logo{
+        font-family: 'SF UI Text Bold Italic';
+        font-size: 48px;
+        color: #992928;
+    }
+    
+    ul{
+        display: flex;
+        margin-left: 190px;
+        text-decoration: none;
+        font-family: 'SF UI Display Regular';
+        position: relative;
+        bottom: 55px;
+    
+    
+    }
+    
+    li{
+        padding-left: 50px;
+        list-style-type: none;
+        color: #FEFEFE;
+    }
+    
+    li:hover{
+        color: #992928;
+        transition: 0.3s;
+    
+    }
+    
+    .call{
+        border-radius: 30px;
+        color: #FEFEFE;
+        background-color: #9B9B9B;
+        border: 1px solid #FEFEFE;
+        font-size: 12px;
+        padding: 10px;
+        position: relative;
+        left: 120px;
+        bottom: 9px;
+    }
+    
+    .basket{
+        position: relative;
+        left: 203px;
+        bottom: 9px;
+    }
+    
+    .call:hover{
+        color: #992928;
+        border: 1px solid #992928;
+        transition: 0.3s;
+    
+    }
+    
+
+    a{
+        color: #FFFF;
+        text-decoration: none;
+       }
+       
+       a:hover{
+           color: #992928;
+           transition: 0.3s;
+       }
+.contactsContainer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contactsTitle {
+    font-family: 'SF UI Display Bolt';
+    color: #992928;
+    font-size: 72px;
+    margin-top: 100px;
+}
+
+.contactsBox {
+    display: flex;
+    margin-top: 100px;
+}
+
+.textColor{
+    font-size: 18px;
+    color: #992928;
+}
+
+.contactText {
+ margin-left: 130px;
+ margin-bottom: 80px;
+}
+
+
+.tg{
+    width: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+.form{
+    margin-top: 100px;
+}
+
+input{
+    width: 505px;
+    height: 40px;
+    color: #c3c3c3;
+    padding-left: 10px;
+    border: 1px solid #c3c3c3;
+    margin-top: 40px;
+}
+
+
+.buttonForm{
+    padding: 13px 130px;
+    background-color: #992928;
+    position: relative;
+    top: 200px;
+    right: 523px;
+}
+
+.buttonForm:hover{
+    background-color: #9B9B9B;
+    border: 1px solid #922727;
+    transform: 0.3s;
+}
+
+#massagePlaceholder{
+    width: 505px;
+    padding-bottom: 90px;
+}
+
+.holder{
+    position: relative;
+    left: 800px;
+    bottom: 340px;
+}
+
+.inputCall {
+    margin-top: 40px;
+    background-color: #992928;
+    color: #FFFF;
+    border: 0;
+    width: 290px;
+    height: 40px;
+}
+
+.inputCall:hover{
+    background-color: #9B9B9B;
+    color: #992928;
+    transition: 0.3s;
+}
+
+
+
+
+.form {
+
+}
+.namePlaceholder {
+    width: 505px;
+    height: 30px;
+    color: #525252;
+
+}
+.numberPlaceholder {
+    margin-top: 40px;
+    display: block;
+    width: 505px;
+    height: 30px;
+    color: #525252;
+}
+.mailPlaceholder {
+    margin-top: 40px;
+    display: block;
+    width: 505px;
+    height: 30px;
+    color: #525252;
+   
+}
+.massagePlaceholder {
+    margin-top: 40px;
+    display: block;
+    width: 505px;
+    height: 30px;
+    color: #525252;
+}
+.buttonForm {
+    background-color: #922727;
+}
+
+
+footer{
+    margin-top: 1px;
+    width: 100%;
+    height: 200px;
+    background-color: #9B9B9B;
+}
+
+.navbarFooter{
+
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+.logo_foot {
+    
+}
+.logoFooter{
+    font-size: 48px;
+    color: #992928;
+    position: relative;
+    top: 70px;
+}
+
+.tgFooter{
+    margin-left: 1155px;
+}
+
+.footer_icons {
+    margin-left: 1155px;
+    display: flex;
+    color: #992928;
+    font-size: 30px;
+}
+
+.footer_icons_link
+{
+       margin-left: 5px;
+       color: #922727;
+}
+
+
+.nav_btn {
+    display: none;
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+}
+@media (max-width: 1000px) {
+    .logo {
+        margin-left: 14px;
+    }
+    nav, header {
+        background-color: white;
+    }
+    li, .call, .basket {
+        display: none;
+    }
+    .nav_btn {
+        display: block;
+    }
+    .contactsBox {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .contactsTitle,.contactsBox {
+        margin-left: 13px;
+
+    }
+    .contactsTitle {
+        margin-top: 25px;
+    }
+    .contactText {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .tg {
+        margin-left: 17px;
+        margin-top: 20px;
+        margin-bottom: 23px;
+    }
+}
