@@ -1,0 +1,467 @@
+@font-face {
+	font-family: 'SF UI Display Regular';
+	src: url('../fonts/sf_ui_display_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_regular.svg#sf_ui_display_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'SF UI Display Bold';
+	src: url('../fonts/sf_ui_display_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_bold.svg#sf_ui_display_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'SF UI Text Bold Italic';
+	src: url('../fonts/sf_ui_text_bold_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_text_bold_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_text_bold_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_text_bold_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_text_bold_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_text_bold_italic.svg#sf_ui_text_bold_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: rgba(165, 42, 42, 0.623);
+    height: 3px;
+  }
+
+
+
+
+body{
+    margin: 0 auto;
+
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #9B9B9B;
+    margin: 0 auto;
+}
+
+nav{
+    width: 1200px;
+    height: 60px;
+    background-color: #9B9B9B;
+    margin: 0 auto;
+}
+
+.logo{
+    font-family: 'SF UI Text Bold Italic';
+    font-size: 48px;
+    color: #992928;
+}
+
+ul{
+    display: flex;
+    margin-left: 190px;
+    text-decoration: none;
+    font-family: 'SF UI Display Regular';
+    position: relative;
+    bottom: 55px;
+
+
+}
+
+li{
+    padding-left: 50px;
+    list-style-type: none;
+    color: #FEFEFE;
+}
+
+li:hover{
+    color: #992928;
+    transition: 0.3s;
+
+}
+
+.call{
+    border-radius: 30px;
+    color: #FEFEFE;
+    background-color: #9B9B9B;
+    border: 1px solid #FEFEFE;
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+    left: 120px;
+    bottom: 9px;
+}
+
+.basket{
+    position: relative;
+    left: 203px;
+    bottom: 9px;
+}
+
+.call:hover{
+    color: #992928;
+    border: 1px solid #992928;
+    transition: 0.3s;
+
+}
+
+
+.banka{
+    width: 300px;
+    position: relative;
+    top: 120px;
+    left: 260px;
+    z-index: 9999;
+}
+
+.bankaOne{
+    width: 300px;
+    position: relative;
+    top: 120px;
+    left: -270px;
+}
+
+.fixedContainer{
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+    box-shadow: 0px 20px 14px -20px #00000057;
+}
+
+h1{
+    font-family: 'SF UI Display Bold';
+    z-index: 9999999;
+    position: relative;
+    font-size: 72px;
+    color: #9B9B9B;
+    left: 580px;
+    bottom: 400px;
+    width: 620px;
+
+
+}
+
+.titleText{
+    font-family: 'SF UI Display Regular';
+    color: #9B9B9B;
+    position: relative;
+    left: 960px;
+    bottom: 521px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.redblock{
+    width: 10px;
+    height: 10px;
+    background-color: #992928;
+    border-radius: 3px;
+  
+}
+
+.redString{
+    width: 600px;
+    position: relative;
+    left: 580px;
+    bottom: 470px;
+    margin-top: 10px;
+}
+
+.redtext{
+    margin-left: 20px;
+    position: relative;
+    bottom: 13px;
+    font-family: 'SF UI Display Regular';
+    color: #9B9B9B;
+}
+
+.linkShop{
+    text-decoration: none;
+    color: #FEFEFE;
+    background-color: #992928;
+    padding: 10px 70px;
+    border-radius: 5px;
+    position: relative;
+    left: 950px;
+    bottom: 400px;
+}
+
+.linkShop:hover{
+    background-color: #9B9B9B;
+    color: #992928;
+    transition: 0.3s;
+}
+
+/* ------------------ */
+
+
+.aboutUs {
+    font-family: 'SF UI Display Regular';
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.aboutUsTitle{
+    font-family: 'SF UI Display Bolt';
+    color: #992928;
+    font-size: 72px;
+}
+
+.aboutUsText {
+    color: #2A2A2A;
+    line-height: 30px;
+}
+.redBox {
+    margin-top: 90px;
+    width: 624px;
+    height: 473px;
+    background-color: #992928;
+    padding-left: 20px;
+}
+.sale {
+padding-left: 280px;
+padding-top: 20px;
+}
+
+h3{
+    color: #FFFF;
+    font-size: 60px;
+    position: relative;
+    bottom: 270px;
+}
+
+.redBoxText {
+    color: #FFFF;
+    font-size: 30px;
+    position: relative;
+    bottom: 300px;
+}
+
+.placeholder{
+    margin-top: 190px;
+    margin-left: 70px;
+    
+
+}
+
+.inputText {
+    font-size: 25px;
+    color: #525252;
+}
+.inputName {
+    width: 505px;
+    height: 30px;
+    color: #525252;
+
+}
+.inputNumber {
+    margin-top: 40px;
+    display: block;
+    width: 505px;
+    height: 30px;
+    color: #525252;
+}
+.inputCall {
+    margin-top: 40px;
+    background-color: #992928;
+    color: #FFFF;
+    border: 0;
+    width: 290px;
+    height: 40px;
+}
+
+.inputCall:hover{
+    background-color: #9B9B9B;
+    color: #992928;
+    transition: 0.3s;
+}
+
+/* ------ */
+
+.shop {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.catalogTitle{
+    font-family: 'SF UI Display Bolt';
+    color: #992928;
+    font-size: 72px;
+}
+
+.slider {
+    width: 1200px;
+    margin: 0 auto;
+}
+.sliderItem {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+
+.buttonShop {
+    display: block;
+    text-decoration: none;
+    color: #FEFEFE;
+    background-color: #992928;
+    padding: 10px 70px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+
+.buttonShop:hover{
+background-color: #9B9B9B;
+color: #992928;
+transition: 0.3s;
+}
+
+.partners{
+    margin-top: 200px;
+    background-color: #992928;
+    width: 100%;
+    height: 720px;
+}
+
+.partnersTitle{
+    color: #FFFF;
+    font-family: 'SF UI Display Bolt';
+    font-size: 72px;
+    position: relative;
+    top: 100px;
+}
+
+.partnersIcons{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.icon{
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+  }
+  
+  .features-block span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .features-block span > picture {
+    margin: auto;
+  }
+  
+  .features-block span img {
+    width: 170px;
+    height: auto;
+  }
+
+  .iconText{
+    color: #FFFF;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .iconFour{
+    position: relative;
+    top: 30px;
+  }
+
+  .iconTextFour{
+    color: #FFFF;
+    text-align: center;
+    font-size: 21px;
+    position: relative;
+    top: 28px;
+    line-height: 27px;
+  }
+
+  /* ------- */
+  .contacts {
+    width: 1200px;
+    margin: 0 auto;
+}
+.contactsTitle {
+    font-family: 'SF UI Display Bolt';
+    color: #992928;
+    font-size: 72px;
+}
+.contactsBox {
+    display: flex;
+}
+
+.textColor{
+    font-size: 18px;
+    color: #992928;
+}
+
+.contactText {
+ margin-left: 130px;
+ margin-bottom: 80px;
+}
+
+.tg{
+    width: 40px;
+    margin-bottom: 100px;
+}
+
+footer{
+    margin-top: 1px;
+    width: 100%;
+    height: 200px;
+    background-color: #9B9B9B;
+}
+
+a{
+ color: #FFFF;
+ text-decoration: none;
+}
+
+a:hover{
+    color: #992928;
+    transition: 0.3s;
+}
+
+.navbarFooter{
+
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+
+.logoFooter{
+    font-family: 'SF UI Text Bold Italic';
+    font-size: 48px;
+    color: #992928;
+    position: relative;
+    top: 70px;
+}
+
+.tgFooter{
+    margin-left: 1155px;
+}

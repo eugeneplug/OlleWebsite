@@ -1,0 +1,458 @@
+@font-face {
+	font-family: 'SF UI Display Regular';
+	src: url('../fonts/sf_ui_display_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_regular.svg#sf_ui_display_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'SF UI Display Bold';
+	src: url('../fonts/sf_ui_display_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_bold.svg#sf_ui_display_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'SF UI Text Bold Italic';
+	src: url('../fonts/sf_ui_text_bold_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_text_bold_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_text_bold_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_text_bold_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_text_bold_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_text_bold_italic.svg#sf_ui_text_bold_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+    /*Стилизация шрифтов начало*/
+
+    body {
+        font-family: 'SF UI Display Regular';
+
+        margin: 0 auto;
+    }
+    .logo{font-family: 'SF UI Text Bold Italic';}
+    .contactsTitle {
+       font-family: 'SF UI Display Bold';
+    }
+
+
+
+     /*Стилизация шрифтов конец*/
+    
+
+     header{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #9B9B9B;
+        margin: 0 auto;
+    }
+    
+    nav{
+        width: 1200px;
+        height: 60px;
+        background-color: #9B9B9B;
+        margin: 0 auto;
+    }
+    
+    .logo{
+        font-family: 'SF UI Text Bold Italic';
+        font-size: 48px;
+        color: #992928;
+    }
+    
+    ul{
+        display: flex;
+        margin-left: 190px;
+        text-decoration: none;
+        font-family: 'SF UI Display Regular';
+        position: relative;
+        bottom: 55px;
+    
+    
+    }
+    
+    li{
+        padding-left: 50px;
+        list-style-type: none;
+        color: #FEFEFE;
+    }
+    
+    li:hover{
+        color: #992928;
+        transition: 0.3s;
+    
+    }
+    
+    .call{
+        border-radius: 30px;
+        color: #FEFEFE;
+        background-color: #9B9B9B;
+        border: 1px solid #FEFEFE;
+        font-size: 12px;
+        padding: 10px;
+        position: relative;
+        left: 120px;
+        bottom: 9px;
+    }
+    
+    .basket{
+        position: relative;
+        left: 203px;
+        bottom: 9px;
+    }
+    
+    .call:hover{
+        color: #992928;
+        border: 1px solid #992928;
+        transition: 0.3s;
+    
+    }
+    
+
+    a{
+        color: #FFFF;
+        text-decoration: none;
+       }
+       
+       a:hover{
+           color: #992928;
+           transition: 0.3s;
+       }
+.contactsContainer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contactsTitle {
+    color: #992928;
+    font-size: 72px;
+    margin-top: 100px;
+    margin-left: 31px;
+    
+}
+
+.contactsBox {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 34px;
+}
+
+.textColor{
+    font-size: 18px;
+    color: #992928;
+}
+
+.contactText {
+ margin-left: 130px;
+ margin-bottom: 80px;
+}
+
+
+.tg{
+    width: 40px;
+    margin-bottom: 50px;
+    margin-left: 34px;
+}
+.map_two {
+    width: 1200px;
+    height: 644px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form{
+    margin-top: 50px;
+    margin-left: 34px;
+}
+
+input{
+    width: 505px;
+    height: 40px;
+    color: #c3c3c3;
+    padding-left: 10px;
+    border: 1px solid #c3c3c3;
+    margin-top: 40px;
+}
+
+
+.buttonForm{
+    width: 290px;
+    height: 40px;
+    background-color: #992928;
+    margin-top: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 34px;
+}
+
+.buttonForm:hover{
+    background-color: #9B9B9B;
+    border: 1px solid #922727;
+    transform: 0.3s;
+}
+
+.contactbox{ 
+    display: flex;
+}
+
+.holder{
+    margin-left: 213px;
+}
+
+.inputCall {
+    margin-top: 40px;
+    background-color: #992928;
+    color: #FFFF;
+    border: 0;
+    width: 290px;
+    height: 40px;
+}
+
+.inputCall:hover{
+    background-color: #9B9B9B;
+    color: #992928;
+    transition: 0.3s;
+}
+
+
+
+
+
+.namePlaceholder {
+    width: 505px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+
+}
+.numberPlaceholder {
+    margin-top: 15px;
+    width: 505px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.mailPlaceholder {
+    margin-top: 15px;
+    width: 505px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+    display: block;
+    box-sizing: border-box;
+   
+}
+.massagePlaceholder {
+    width: 505px;
+    height: 80px;
+    padding-left: 20px;
+    border: 1px solid #DEDEDE;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+    resize: none;
+    display: block;
+    box-sizing: border-box;
+
+}
+.title_contact_us {
+    color: #922727;
+    font-size: 72px;
+    font-family: 'SF UI Display Bold';
+    margin-top: 60px;
+    margin-left: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 1px;
+    width: 100%;
+    height: 200px;
+    background-color: #9B9B9B;
+}
+
+.navbarFooter{
+
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+
+.logoFooter{
+    font-size: 48px;
+    color: #992928;
+    position: relative;
+    top: 70px;
+}
+
+.tgFooter{
+    margin-left: 1155px;
+}
+
+.footer_icons {
+    margin-left: 1155px;
+    display: flex;
+    color: #992928;
+    font-size: 30px;
+}
+
+.footer_icons_link
+{
+       margin-left: 5px;
+       color: #922727;
+}
+
+
+.nav_btn {
+    display: none;
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+}
+
+
+@media (max-width: 1000px) {
+    .logo {
+        margin-left: 14px;
+        font-size: 30px;
+    }
+    nav, header {
+        background-color: white;
+    }
+    li, .call, .basket {
+        display: none;
+    }
+    .nav_btn {
+        display: block;
+    }
+    .contactsBox {
+        flex-direction: column;
+        margin-top: -20px;
+        font-size: 14px;
+    }
+    .contactsTitle,.contactsBox {
+        margin-left: 13px;
+
+    }
+    .contactsTitle {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .contactText {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .contactText_ {
+        margin-bottom: 0;
+    }
+    .tg {
+        margin-left: 17px;
+        margin-top: 20px;
+        margin-bottom: 23px;
+        width: 21px;
+    }
+    .map_two {
+        width: 320px;
+        height: 296px; 
+    }
+    .namePlaceholder, .numberPlaceholder, .mailPlaceholder {
+        width: 290px;
+        height: 40px;
+    }
+    .massagePlaceholder {
+        width: 290px;
+        height: 80px;
+    }
+    .form {
+        margin-left: 15px;
+    }
+    
+    .holder {
+        display: none;
+    }
+    .body { 
+        width: 320px;
+        overflow: hidden;
+    }
+    .contactsContainer {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .title_contact_us {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+    .buttonForm {
+        margin-left: 0px;
+    }
+
+    .block_btn {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
