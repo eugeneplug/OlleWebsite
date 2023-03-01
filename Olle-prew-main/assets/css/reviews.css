@@ -240,7 +240,7 @@ footer{
     }
     .container {
         
-        width: 600px;
+        width: 320px;
         overflow: hidden;
         margin: 0 auto;
         
@@ -253,11 +253,13 @@ footer{
         margin: 0 auto;
         width: 290px;
         margin-top: 46px;
+        margin-left: 0px;
         
     }
     .title {
         font-size: 30px;
         text-align: center;
+        margin-left: 0px;
 
     }
     .content_block {
