@@ -45,6 +45,15 @@
      /*Стилизация шрифтов конец*/
     
 
+
+
+
+
+
+
+
+
+
      header{
         width: 100%;
         margin: 0 auto;
@@ -123,6 +132,21 @@
            color: #992928;
            transition: 0.3s;
        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contactsContainer{
     width: 1200px;
     margin: 0 auto;
@@ -431,9 +455,7 @@ footer {
         margin-left: 14px;
         font-size: 30px;
     }
-    nav, header {
-        background-color: white;
-    }
+    
     li, .call, .basket {
         display: none;
     }
@@ -539,13 +561,28 @@ footer {
         position: relative;
         top: 40px;
     }
+
+
+
+    /*navbar start*/
+    @media (max-width: 1000px) {
+        nav, header {
+            background-color: white;
+            width: 100%;
+        }
+    }
+
+
+
+
+    /*navbar end*/ 
    
 
 
 
 
 
-@media (max-width: 305px) {
+@media (max-width: 318px) {
     footer {
         width: 320px;
     }
@@ -559,5 +596,4 @@ footer {
 
 
 }
-
 
