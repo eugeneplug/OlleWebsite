@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/contacts.css">
+    <script src="https://kit.fontawesome.com/1fb243072c.js" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+
+</head>
+<body>
+    <header role="banner">
+        <div class="header-burger">
+            <span></span>
+        </div>
+        <div class="header-menu">
+            <div class="logo">OLLE</div>
+            <nav>
+                <ul class="navbar">
+                    <li>
+                        <a href="index.html">Главная</a> 
+                    </li>
+                    <li>
+                        <a href="catalog.html">Каталог</a> 
+                    </li>
+                    <li>
+                        <a href="aboutUs.html">О нас</a> 
+                    </li>
+                    <li>
+                        <a href="reviews.html">Отзывы</a> 
+                     </li>
+                    <li>
+                        <a href="delivery.html">Доставка</a> 
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакты</a> 
+                    </li>
+                </ul>
+            </nav>
+            <button class="call">Заказать обратный звонок</button>
+        </div>
+        <p class="logoMob">OLLE</p>
+    </header>
+    <div class="callback_popup_fade">
+        <div class="callback_popup">
+                <div class="callback_popup_box">
+                    <div class="callback_popup_content">
+                        <div class="callback_popup_redbox">
+                            <div class="callback_container">
+                        <h4 class="callback_popup_title">Свяжитесь с нами</h4>
+                        <a class="callback_popup_clouse" href="#">X</a>
+                        <div class="callback_popup__placeholder">
+                            <p class="callback_popup__inputText">Оставьте свои контактные данные, чтобы наш менеджер смог связаться с Вами в ближайшее время.</p>
+                            <input type="text" placeholder="Имя" class="callback_popup_inputName">
+                            <input type="number" placeholder="Номер" class="callback_popup_inputMailr">
+                            <input type="number" placeholder="Номер" class="callback_popup_inputNumber">
+                            <button class="inputCall">Отправить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="contactsContainer">
+        <h1 class="contactsTitle">Контакты</h1>
+        <div class="contactsBox">
+            <p class="contactText_"><span class="textColor">E-mail:<br></span>ollecleaner@gmail.com</p>
+            <p class="contactText"><span class="textColor">Адрес:<br></span>190031,Санкт-Петербург<br>​Садовая, 40​</p>
+            <p class="contactText"><span class="textColor">Телефон:<br></span>+7 (995) 599-98-98</p>
+        </div>
+        <div class="tg">
+            <a href="#"><svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5 0C6.048 0 0 6.272 0 14C0 21.728 6.048 28 13.5 28C20.952 28 27 21.728 27 14C27 6.272 20.952 0 13.5 0ZM19.764 9.52C19.5615 11.732 18.684 17.108 18.2385 19.586C18.0495 20.636 17.6715 20.986 17.3205 21.028C16.5375 21.098 15.9435 20.496 15.1875 19.978C13.9995 19.166 13.3245 18.662 12.177 17.878C10.8405 16.968 11.7045 16.464 12.474 15.652C12.6765 15.442 16.1325 12.18 16.2 11.886C16.2094 11.8415 16.2081 11.7952 16.1964 11.7513C16.1846 11.7074 16.1627 11.6671 16.1325 11.634C16.0515 11.564 15.9435 11.592 15.849 11.606C15.7275 11.634 13.8375 12.936 10.152 15.512C9.612 15.89 9.126 16.086 8.694 16.072C8.208 16.058 7.29 15.792 6.6015 15.554C5.751 15.274 5.0895 15.12 5.1435 14.63C5.1705 14.378 5.508 14.126 6.1425 13.86C10.0845 12.082 12.7035 10.906 14.013 10.346C17.766 8.722 18.5355 8.442 19.0485 8.442C19.1565 8.442 19.413 8.47 19.575 8.61C19.71 8.722 19.7505 8.876 19.764 8.988C19.7505 9.072 19.7775 9.324 19.764 9.52Z" fill="#922727"/>
+                </svg>
+                </a>
+        </div>
+            </a>
+        <div class="map_two">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A71383614f76a3fe6722db310e9faa15cf15ae8603a33b0b73d5b7dc1c568c6e7&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+        </div>
+        <div class="title_contact_us">Свяжитесь с нами</div>
+        <div class="contactbox">
+            <form class="form">
+                <input class="namePlaceholder" type="text" name="name" size="15" maxlength="20" value="" placeholder="Имя" required="">
+                <input class="numberPlaceholder" type="text" name="email" size="15" maxlength="20" value="" placeholder="E-mail" required="">
+                <input class="mailPlaceholder" type="text" name="phone" size="15" maxlength="20" value="" placeholder="Телефон" required="">
+                <textarea type="text" placeholder="Ваш вопрос" class="massagePlaceholder" ></textarea>
+            </form>
+            <div class="form_img"><img src="/assets/img/holder.png" alt="" class="holder"></div>
+        </div>
+        <div class="block_btn"><a class="buttonForm" href="#">
+            Отправить
+        </a></div>
+    </div>
+    <footer>
+        <div class="foot">
+            <div class="foot_content">
+                <p class="logo_footer">OLLE</p>
+                <div class="footer_links">
+                    <a href="#">Главная</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Магазин</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Доставка</a>
+                </div>
+                
+                <div class="footer_info">
+                        <p class="footer-text">E-mail: ice-elbrus@mail.ru</p>
+                        <p class="footer-text">Адрес: 360015, РФ, КБР, г. Нальчик, ул.Кабардинская, 148-б</p>
+                        <p class="footer-text">Телефон: +7 (928) 076 14 98</p>
+                        <p class="footer-tg"><a href="#" class="tg-link">Telegram: OlleTelegram</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/js/catalog.js"></script>
+</body>  
+</html>

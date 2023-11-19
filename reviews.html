@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Отзывы</title>
     <link rel="stylesheet" href="assets/css/reviews.css">
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
     <script src="https://kit.fontawesome.com/1fb243072c.js" crossorigin="anonymous"></script>
     <style>
         
@@ -26,37 +27,59 @@
 <body>
 
 
-    <!--
-<header>
-    <nav>
-        <div class="logo">OLLE</div>
-        <ul class="navbar">
-            <li>
-                <a href="/index.html">Главная</a> 
-            </li>
-            <li>
-                <a href="/catalog.html">Каталог</a> 
-            </li>
-            <li>
-                <a href="/aboutUs.html">О нас</a> 
-            </li>
-            <li>
-                <a href="/reviews.html">Отзывы</a> 
-             </li>
-            <li>
-                <a href="/delivery.html">Доставка</a> 
-            </li>
-            <li>
-                <a href="/contacts.html">Контакты</a> 
-            </li>
+    <header role="banner">
+        <div class="header-burger">
+            <span></span>
+        </div>
+        <div class="header-menu">
+            <div class="logo">OLLE</div>
+            <nav>
+                <ul class="navbar">
+                    <li>
+                        <a href="index.html">Главная</a> 
+                    </li>
+                    <li>
+                        <a href="catalog.html">Каталог</a> 
+                    </li>
+                    <li>
+                        <a href="aboutUs.html">О нас</a> 
+                    </li>
+                    <li>
+                        <a href="reviews.html">Отзывы</a> 
+                     </li>
+                    <li>
+                        <a href="delivery.html">Доставка</a> 
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакты</a> 
+                    </li>
+                </ul>
+            </nav>
             <button class="call">Заказать обратный звонок</button>
-            <img src="/assets/img/basket.png" alt="basket" class="basket">
-        </ul>
-    </nav>
-</header>
-
--->
-
+        </div>
+        <p class="logoMob">OLLE</p>
+    </header>
+    <div class="callback_popup_fade">
+        <div class="callback_popup">
+                <div class="callback_popup_box">
+                    <div class="callback_popup_content">
+                        <div class="callback_popup_redbox">
+                            <div class="callback_container">
+                        <h4 class="callback_popup_title">Свяжитесь с нами</h4>
+                        <a class="callback_popup_clouse" href="#">X</a>
+                        <div class="callback_popup__placeholder">
+                            <p class="callback_popup__inputText">Оставьте свои контактные данные, чтобы наш менеджер смог связаться с Вами в ближайшее время.</p>
+                            <input type="text" placeholder="Имя" class="callback_popup_inputName">
+                            <input type="number" placeholder="Номер" class="callback_popup_inputMailr">
+                            <input type="number" placeholder="Номер" class="callback_popup_inputNumber">
+                            <button class="inputCall">Отправить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <p class="title">Отзывы наших клиентов</p>
         <div class="content">
@@ -97,82 +120,26 @@
 
     <footer>
         <div class="foot">
-             <div class="я не знаю почему но этот див реально нужен">
-                 <div class="foot_logo">OLLE</div>
-             </div>
-             
+            <div class="foot_content">
+                <p class="logo_footer">OLLE</p>
+                <div class="footer_links">
+                    <a href="#">Главная</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Магазин</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Доставка</a>
+                </div>
+                
+                <div class="footer_info">
+                        <p class="footer-text">E-mail: ice-elbrus@mail.ru</p>
+                        <p class="footer-text">Адрес: 360015, РФ, КБР, г. Нальчик, ул.Кабардинская, 148-б</p>
+                        <p class="footer-text">Телефон: +7 (928) 076 14 98</p>
+                        <p class="footer-tg"><a href="#" class="tg-link">Telegram: OlleTelegram</a></p>
+                </div>
+            </div>
         </div>
-        <div class="foot_nav">
-         <a class="foot_link" href="/index.html">Главная</a>
-         <a class="foot_link" href="/aboutUs.html">О нас</a>
-         <a class="foot_link" href="/catalog.html">Каталог</a>
-         <a class="foot_link" href="/reviews.html">Отзывы</a>
-         <a class="foot_link" href="/contacts.html">Контакты</a>
-         <a class="foot_link" href="/delivery.html">Доставка</a>
-         <a href="#" class="footer_icons_link"><i class="fa-brands fa-telegram"></i></a>
-     </div>
-     
-      </footer>
+    </footer>
+    <script src="/assets/js/reviews.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
-
-<footer>
-    <nav>
-        <div class="logo_foot"><div class="logoFooter">OLLE</div></div>
-        <ul class="navbarFooter">
-            <li>
-                Главная
-            </li>
-            <li>
-                О нас
-            </li>
-            <li>
-                Магазин
-            </li>
-            <li>
-                Контакты
-            </li>
-            <li>
-                Доставка
-            </li>
-        </ul>
-        
-        <div class="footer_icons">
-            <a href="#" class="footer_icons_link1"><i class="fa-brands fa-vk"></i></a>
-            <a href="#" class="footer_icons_link2"><i class="fa-brands fa-telegram"></i></a>
-            <a href="#" class="footer_icons_link3"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-    </nav>
- </footer>
 </body>
-
-
-
-
-
-
-
-
-
-
-
 </html>

@@ -1,0 +1,1279 @@
+@font-face {
+	font-family: 'SF UI Display Regular';
+	src: url('../fonts/sf_ui_display_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_regular.svg#sf_ui_display_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'SF UI Display Bold';
+	src: url('../fonts/sf_ui_display_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_display_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_display_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_display_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_display_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_display_bold.svg#sf_ui_display_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'SF UI Text Bold Italic';
+	src: url('../fonts/sf_ui_text_bold_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/sf_ui_text_bold_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/sf_ui_text_bold_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/sf_ui_text_bold_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sf_ui_text_bold_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/sf_ui_text_bold_italic.svg#sf_ui_text_bold_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'SF UI Display Regular';
+
+}
+
+header{
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    background-color: #9B9B9B;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+}
+
+a{
+text-decoration: none;
+color: #FFFF;
+}
+
+a:hover{
+color: #922727;
+transition: 0.3s;
+}
+
+.header-menu{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-menu::before{
+width: 100%;
+height: 100%;
+}
+
+
+
+.logo{
+    font-family: 'SF UI Text Bold Italic';
+    font-size: 43px;
+    color: #992928;
+}
+
+ul{
+    display: flex;
+    margin-left: 190px;
+    text-decoration: none;
+    font-family: 'SF UI Display Regular';
+    position: relative;
+    bottom: 50px;
+
+
+}
+
+li{
+    padding-left: 50px;
+    list-style-type: none;
+    color: #FEFEFE;
+
+}
+
+li:hover{
+    color: #992928;
+    transition: 0.3s;
+
+}
+
+.call{
+    border-radius: 30px;
+    color: #FEFEFE;
+    background-color: #9B9B9B;
+    border: 2px solid #FEFEFE;
+    font-size: 12px;
+    padding: 12px 15px;
+    position: relative;
+    left: 1015px;
+    bottom: 97px;
+
+}
+
+
+.call:hover{
+    color: #992928;
+    border: 1px solid #992928;
+    transition: 0.3s;
+
+}
+
+
+
+
+
+
+
+.fixedContainer{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+a:hover{
+    color: #992928;
+    transition: 0.3s;
+}
+
+
+.banka{
+    width: 300px;
+    position: relative;
+    top: 120px;
+    left: 260px;
+    z-index: 10;
+}
+
+.bankaOne{
+    width: 300px;
+    position: relative;
+    top: 120px;
+    left: -270px;
+}
+
+.fixedContainer{
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+    box-shadow: 0px 20px 14px -20px #00000057;
+}
+
+h1{
+    font-family: 'SF UI Display Bold';
+    z-index: 5;
+    position: relative;
+    font-size: 72px;
+    color: #9B9B9B;
+    left: 580px;
+    bottom: 400px;
+    width: 620px;
+
+
+}
+
+.titleText{
+    font-family: 'SF UI Display Regular';
+    color: #9B9B9B;
+    position: relative;
+    left: 960px;
+    bottom: 521px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.redblock{
+    width: 10px;
+    height: 10px;
+    background-color: #992928;
+    border-radius: 3px;
+  
+}
+
+.redString{
+    width: 600px;
+    position: relative;
+    left: 580px;
+    bottom: 470px;
+    margin-top: 10px;
+}
+
+.redtext{
+    margin-left: 20px;
+    position: relative;
+    bottom: 13px;
+    font-family: 'SF UI Display Regular';
+    color: #9B9B9B;
+}
+
+.linkShop{
+    text-decoration: none;
+    color: #FEFEFE;
+    background-color: #992928;
+    padding: 10px 70px;
+    border-radius: 5px;
+    position: relative;
+    left: 950px;
+    bottom: 400px;
+}
+
+.linkShop:hover{
+    background-color: #9B9B9B;
+    color: #992928;
+    transition: 0.3s;
+}
+
+/* ------------------ */
+
+
+.aboutUs {
+    font-family: 'SF UI Display Regular';
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.aboutUsTitle{
+    font-family: 'SF UI Display Bolt';
+    color: #992928;
+    font-size: 72px;
+}
+
+.aboutUsText {
+    color: #2A2A2A;
+    line-height: 30px;
+}
+.redBox {
+    margin-top: 90px;
+    width: 624px;
+    height: 473px;
+    background-color: #992928;
+    padding-left: 20px;
+}
+.sale {
+padding-left: 280px;
+padding-top: 20px;
+}
+
+h3{
+    color: #FFFF;
+    font-size: 60px;
+    position: relative;
+    bottom: 270px;
+}
+
+.redBoxText {
+    color: #FFFF;
+    font-size: 30px;
+    position: relative;
+    bottom: 300px;
+}
+
+.placeholder{
+    margin-top: 190px;
+    margin-left: 70px;
+    
+
+}
+
+.inputText {
+    font-size: 25px;
+    color: #525252;
+}
+.inputName {
+    width: 505px;
+    height: 30px;
+    color: #525252;
+
+}
+.inputNumber {
+    margin-top: 40px;
+    display: block;
+    width: 505px;
+    height: 30px;
+    color: #525252;
+}
+.inputCall {
+    margin-top: 40px;
+    background-color: #992928;
+    color: #FFFF;
+    border: 0;
+    width: 290px;
+    height: 40px;
+}
+
+.inputCall:hover{
+    background-color: #9B9B9B;
+    color: #992928;
+    transition: 0.3s;
+}
+
+/* ------ */
+
+.shop {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.catalogTitle{
+    font-family: 'SF UI Display Bolt';
+    color: #992928;
+    font-size: 72px;
+}
+
+.slider {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sliderItem:hover{
+    box-shadow: 1px 2px 0px 0px #6060603d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sliderItem {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+
+.buttonShop {
+    display: block;
+    text-decoration: none;
+    color: #FEFEFE;
+    background-color: #992928;
+    padding: 10px 70px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+
+.buttonShop:hover{
+background-color: #9B9B9B;
+color: #992928;
+transition: 0.3s;
+}
+
+
+/* landing_catalog_popup */
+
+/* ----- */
+
+.partners{
+    margin-top: 200px;
+    background-color: #992928;
+    width: 100%;
+    height: 720px;
+}
+
+.partnersTitle{
+    color: #FFFF;
+    font-family: 'SF UI Display Bolt';
+    font-size: 72px;
+    position: relative;
+    top: 100px;
+}
+
+.partnersIcons{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.icon{
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+  }
+  
+  .features-block span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .features-block span > picture {
+    margin: auto;
+  }
+  
+  .features-block span img {
+    width: 170px;
+    height: auto;
+  }
+
+  .iconText{
+    color: #FFFF;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .iconFour{
+    position: relative;
+    top: 30px;
+  }
+
+  .iconTextFour{
+    color: #FFFF;
+    text-align: center;
+    font-size: 21px;
+    position: relative;
+    top: 28px;
+    line-height: 27px;
+  }
+
+  /* ------- */
+
+  /* popupshop */
+
+
+  .popUpDark {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #0000004d;
+    z-index: 999999;
+}
+.popUpBox {
+}
+.popUp-content {
+}
+.popupContent {
+    display: flex;
+}
+
+.calback-popup-close {
+    position: absolute;
+    z-index: 999999999;
+    left: 1200px;
+    top: 100px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+    background-color: #525252;
+}
+
+.popup-close{
+    cursor: pointer;
+    position: relative;
+    left: 950px;
+    height: 50px;
+}
+
+.popup-close:hover {
+    color: #992928;
+    transition: 0.3s;
+}
+
+
+   .shop_popup-box {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.shop_popup_content {
+    width: 1000px;
+    height: 650px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+.clouse {
+    color: #525252;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    left: 1060px;
+    top: 20px;
+}
+
+.clouse:hover{
+    color: #992928;
+    transition: 0.3s;
+}
+
+.images {
+}
+
+.button-buy{
+    border-radius: 3px;
+    background-color: #992928;
+    padding: 5px 70px;
+    position: relative;
+    top: 30px;
+}
+
+.button-buy:hover{
+    background-color: #9B9B9B;
+}
+
+.banka_shop_popup {
+    width: 360px;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.popup_content {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    left: -50px;
+}
+
+.popup_title_map {
+    font-size: 35px;
+    color: #992928;
+    font-family: 'SF UI Display Bold';
+    width: 500px;
+    position: relative;
+    top: -10px;
+
+}
+.popup_redString_map {
+    position: relative;
+    bottom: 35px;
+}
+.popup_redblock_map {
+    width: 10px;
+    height: 10px;
+    background-color: #992928;
+    border-radius: 3px;
+    position: relative;
+    top: 20px;
+}
+.popup_text_map {
+    margin-left: 25px;
+    color: #9B9B9B;
+
+}
+.popup_description {
+    color: #9B9B9B;
+    font-size: 15px;
+    position: relative;
+    width: 600px;
+} 
+  /*  */
+
+/* попап калбак */
+.popup-darkzone.active{
+display: block;
+}
+
+.popup-darkzone {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #00000058;
+    position: fixed;
+    z-index: 9999999;
+}
+.popup-redzone {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #922727;
+    height: 660px;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+
+}
+.popupcontent {
+    width: 980px;
+    height: 630px;
+    background-color: #FFFFFf;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+}
+
+.map{
+position: relative;
+left: 0;
+width: 100%;
+height: 100%;
+
+}
+
+
+
+.callback_popup_clouse {
+    position: absolute;
+    left: 1170px ;
+    top: 80px;
+    z-index: 999999999;
+    color: #000;
+    padding: 10px;
+    position: absolute;
+}
+.callback_popup__placeholder {
+width: 300px;
+position: relative;
+top: 170px;
+left: 100px;
+}
+.callback_popup__inputText {
+    color: #525252;
+    width: 800px;
+    position: relative;
+    top: -100px;
+}   
+.callback_popup_inputName {
+    width: 350px;
+    height: 30px;
+    top: -50px;
+    position: relative;
+}
+.callback_popup_inputMailr {
+    width: 350px;
+    margin-top: 15px;
+    height: 30px;
+    top: -50px;
+    position: relative;
+
+}
+.callback_popup_inputNumber {
+    height: 30px;
+    width: 350px;
+    margin-top: 15px;
+    top: -50px;
+    position: relative;
+}
+.inputCall {
+    width: 350px;
+    position: relative;
+}
+
+
+.callback_popup_box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.callback_popup_redbox{
+    background-color: #ffff;
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    position: relative;
+    top: 25px;
+    border-radius: 5px;
+}
+
+.callback_container{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.callback_popup_content{
+    width: 1000px;
+    height: 650px;
+    background-color: #992928;
+    border-radius: 5px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+
+
+
+
+.callback_popup_title {
+    font-size: 35px;
+    color: #992928;
+    font-family: 'SF UI Display Bold';
+    width: 500px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+} 
+/*  */
+
+  .contacts {
+    width: 1200px;
+    margin: 0 auto;
+}
+.contactsTitle {
+    font-family: 'SF UI Display Bolt';
+    color: #992928;
+    font-size: 72px;
+}
+.contactsBox {
+    display: flex;
+}
+
+.textColor{
+    font-size: 18px;
+    color: #992928;
+}
+
+.contactText {
+ margin-left: 130px;
+ margin-bottom: 80px;
+}
+
+.tg{
+    width: 40px;
+    margin-bottom: 100px;
+}
+
+.foot{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 650px;
+}
+
+footer {
+ 
+    height: 250px;
+    background: #949494;
+    position: relative;
+    top: 120px;
+}
+.foot_content {
+    display: flex;
+    margin: 0 auto;
+    width: 1280px;
+}
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+    margin-top: 60px;
+    line-height: 25px;
+    position: relative;
+    left: 50px;
+}
+
+.logo_footer {
+    margin-left: 21px;
+    font-size: 70px;
+    color: #922727;
+    font-family: 'SF UI Text Bold Italic';
+}
+.footer_info {
+    margin-left: 275px;
+    position: relative;
+    left: 100px;
+    top: 55px;
+    height: 100px;
+}
+
+.footer-tg{
+    color: #992928;
+}
+
+.tg-link{
+    color: #922727;
+}
+
+.footer-text{
+    cursor: pointer;
+    font-size: 14px;
+    color: #FFFF;
+}
+
+
+
+a{
+ color: #FFFF;
+ text-decoration: none;
+}
+
+a:hover{
+    color: #992928;
+    transition: 0.3s;
+}
+
+.navbarFooter{
+
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+
+.logoFooter{
+    font-family: 'SF UI Text Bold Italic';
+    font-size: 48px;
+    color: #992928;
+    position: relative;
+    top: 70px;
+}
+
+.tgFooter{
+    margin-left: 1155px;
+}
+
+.header-burger{
+    display: none;
+}
+
+.logoMob{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    body{
+        display: block;
+        margin: 0 auto;
+        font-family: 'SF UI Display Regular';
+        width: 500px;
+        padding: 0;
+    }
+
+    .logoMob{
+        display: block;
+        font-size: 50px;
+        position: fixed;
+        top: -50px;
+        color: #922727;
+    }
+
+.header-menu{
+    z-index: 9999999999;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+    .header-burger{
+        display: block;
+        position: absolute;
+        width: 45px;
+        height: 3px;
+        right: 0;
+        top: 15px;
+        z-index: 9999999999999;
+
+    }
+    .header-burger::after,
+    .header-burger::before{
+        content: '';
+        background-color: #992928;
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0;
+    }
+
+    .header-burger span{
+        position: absolute;
+        background-color: #992928;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        top: 15px;
+    }
+
+    .header-burger::after{
+        bottom: -9px;
+    }
+    .header-burger::before{
+        top: 0px;
+
+        
+    }
+    
+    header{
+        position: fixed;
+        left: 0;
+        background-color: #FFFF;
+    }
+
+    .map{
+        position: relative;
+    }
+
+    nav{
+        width: 400px;
+    }
+    
+
+ 
+.call{
+    display: none;
+}
+
+    .header-menu{
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background-color: #992928;
+       z-index: 9999;
+       top: -7000px;
+       transition: 0.3s;
+
+    }
+
+    .header-menu.active{
+        top: 50px;
+     }
+    
+    .header-menu::before{
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        z-index: 99999999;
+    }
+    
+    
+    
+    ul{
+        display: block;
+        text-align: left;
+    
+    }
+    
+    li{
+        position: relative;
+        right: 190px;
+        text-align: left;
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    
+    
+   .fixedContainer{
+        display: block;
+        box-shadow:  none;
+        width: 100px;
+        margin: 0 auto;
+   }
+    
+   .linkShop{
+    display: none;
+   }
+
+   
+    
+    .bankaOne{
+        position: relative;
+        z-index: 9999;
+        left: -100px;
+        top: 260px;
+        width: 270px;
+    }
+
+    h1{
+        position: relative;
+        font-size: 40px;
+        width: 400px;
+        left: -140px;
+    }
+
+    .redblock {
+        display: none;
+    }
+    .redtext {
+        display: none;
+
+    }
+    .redString{
+        display: none;
+       }
+
+  
+    .titleText{
+        position: relative;
+        left: -140px;
+        font-size: 28px;
+        width: 300px;
+        margin-top: 140px;
+        z-index: 99999;
+    }
+
+    .banka{
+        display: none;
+    }
+
+
+    .aboutUsTitle{
+        text-align: center;
+        font-size: 40px;
+        margin-left: 90px;
+    }
+
+ .aboutUs{
+    margin-top: 100px;
+    position: relative;
+    left: -50px;
+ }
+
+    .aboutUsText{
+        font-size: 16px;
+        line-height: 30px;
+        width: 400px;
+        padding-left: 50px;
+        margin: 0 auto;
+    }
+
+    .redBox{
+        width: 480px;
+        height: 300px;
+    }
+
+    .sale{
+        width: 200px;
+        position: relative;
+        left: -30px;
+    }
+
+    .container{
+        display: block;
+        margin: 0 auto;
+    }
+    h3{
+        font-size: 30px;
+        position: relative;
+        width: 400px;
+        left: 20px;
+        margin-top: 100px;
+    }
+
+    .redBoxText{
+        font-size: 24px;
+        width: 300px;
+        margin-top: 35px;
+        left: 20px;
+    }
+
+    .placeholder{
+        position: relative;
+        display: block;
+        width: 300px;
+        left: -20px;
+    }
+
+    .inputText {
+        font-size: 28px;
+    }
+    .inputName {
+        font-size: 25px;
+        height: 40px;
+        width: 370px;
+    }
+    .inputNumber {
+        font-size: 25px;
+        height: 40px;
+        width: 370px;
+        margin-top: 20px;
+    }
+    .inputCall {
+        height: 50px;
+        width: 350px;
+        margin-top: 30px;
+        font-size: 28px;
+        z-index: 99999;
+    }
+
+    .shop{
+        display: block;
+        margin-top: 200px;
+        width: 500px;
+    }
+
+    .slider{
+        width: 500px;
+    }
+    .catalogTitle{
+        text-align: center;
+        font-size: 40px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+
+
+    .sliderItem{
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        margin-top: 120px;
+    }
+
+    .buttonShop{
+        width: 290px;
+        height: 30px;
+        left: -10px;
+        font-size: 24px;
+    }
+
+    .partnersIcons{
+        display: block;
+    }
+
+    .contacts{
+        display: block;
+    }
+
+.image{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .partners{
+        width: 500px;
+        height: 1100px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 200px;
+    }
+
+    .partnersIcons{
+        width: 500px;
+    }
+
+    .partnersTitle{
+        text-align: center;
+        font-size: 30px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .features-block{
+        width: 200px;
+        margin: 0 auto;
+        position: relative;
+        top: 200px;
+    }
+    .features-block span img {
+        width: 100px;
+    }
+
+    .iconText{
+        font-size: 20px;
+    }
+
+    .iconTextFour{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+
+    .contactsTitle{
+        font-size: 30px;
+        text-align: center;
+        width: 300px;
+        color: #922727;
+        margin: 0 auto;
+    }
+
+    .contactsBox{
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+    }
+
+
+
+    .contactText_{
+        font-size: 20px;
+        position: relative;
+        top: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .textColor{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contactText{
+        font-size: 20px;
+        position: relative;
+        top: 30px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .tg{
+        width: 50px;
+        top: 100px;
+        left: 48%;
+        position: relative;
+    }
+
+    .contacts{
+        width: 500px;
+        position: relative;
+        top: 300px;
+    }
+
+
+
+    footer{
+        display: block;
+        position: relative;
+        left: -22px;
+        top: 500px;
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .foot_content {
+        display: block;
+        width: 330px;
+        margin: 0 auto;
+
+    }
+
+
+    .map{
+        position: relative;
+        top: 100px;
+    }
+    .aboutUs{
+        width: 399px;
+    }
+
+    .foot {
+        width: 500px;
+    }
+    .logo_footer {
+        margin: 0 auto;
+        width: 170px;
+    }
+    .footer_links {
+        line-height: 45px;
+        font-size: 20px;
+    }
+    .footer_info {
+        display: none;
+    }
+
+
+
+    
+}
